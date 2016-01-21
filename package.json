@@ -1,5 +1,5 @@
 {
-  "name": "generator-react-native",
+  "name": "generator-react-native-redux",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-	"app",
-	"router"
+    "app",
+    "router"
   ],
-  "keywords": ["yeoman-generator"],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.0.0",
     "yeoman-generator": "^0.22.4"
   }
 }
